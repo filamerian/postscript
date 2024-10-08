@@ -199,7 +199,7 @@ nextBtn.addEventListener(
             scoreContainer.classList.remove("hide");
             //user score
             userScore.innerHTML =
-                "Your score is " + scoreCount + " out of " + (questionCount*3); //2 point each
+                "Your score is " + scoreCount + " out of " + (questionCount*4); //4 point each
         } else {
             //display questionCount
             countOfQuestion.innerHTML =
